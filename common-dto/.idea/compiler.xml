@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-dto" />
+      </profile>
+      <profile name="Annotation profile for EmailService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="MeetingService" />
+        <module name="PdfService" />
+        <module name="EntityService" />
+        <module name="ValidatorService" />
+        <module name="EmailService" />
+        <module name="FeatureService" />
+        <module name="CounsellingService" />
+        <module name="PaymentService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PreferencePredictor" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CounsellingService" options="-parameters" />
+      <module name="EmailService" options="-parameters" />
+      <module name="EntityService" options="-parameters" />
+      <module name="FeatureService" options="-parameters" />
+      <module name="MeetingService" options="-parameters" />
+      <module name="PaymentService" options="-parameters" />
+      <module name="PdfService" options="-parameters" />
+      <module name="PreferencePredictor" options="-parameters" />
+      <module name="ValidatorService" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+com\yourcompany\common\dto\PdfDTO.class
+com\yourcompany\common\dto\Cargo.class
+com\yourcompany\common\dto\ValidationDTO.class
+com\yourcompany\common\dto\PaymentConfirmationEvent.class
+com\yourcompany\common\dto\EmailNotificationEvent$EmailNotificationEventBuilder.class
+com\yourcompany\common\dto\PdfReadyForValidationEvent.class
+com\yourcompany\common\dto\MeetingEventDTO.class
+com\yourcompany\common\dto\EmailNotificationEvent.class
+com\yourcompany\common\dto\UserDTO.class
